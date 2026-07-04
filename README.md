@@ -11,7 +11,7 @@ By fusing high-speed 2.4GHz channel polling with real-time spatial orientation d
 
 ---
 
-## 🔥 Key Features
+## 🔥 Key Features 
 
 * **🧭 IMU-Driven Spatial Radar:** Integrates dynamic delta-time ($dt$) Z-axis gyroscope tracking via `M5Unified`. As you physically rotate, the firmware maps RSSI (Received Signal Strength Indicator) against your relative heading to build a visual "heat signature" of the transmitting source.
 * **🎯 Single-Channel High-Speed Locking:** Select a target and lock the ESP32 radio chip to its specific operating channel. This drops poll times down to ~150ms for hyper-responsive spatial tracking.
